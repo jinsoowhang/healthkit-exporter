@@ -128,7 +128,7 @@ struct RecordCounts: Decodable {
 enum APIClient {
     private static let iso8601: ISO8601DateFormatter = {
         let f = ISO8601DateFormatter()
-        f.formatOptions = [.withInternetDateTime]
+        f.formatOptions = [.withInternetDateTime, .withTimeZone]
         return f
     }()
 
