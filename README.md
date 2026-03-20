@@ -1,6 +1,6 @@
 # HealthKit Exporter
 
-A free, open-source iOS app that exports Apple Watch health data to your self-hosted [Apple Watch Health Dashboard](https://github.com/YOUR_USERNAME/apple-watch). Replaces paid alternatives like Health Auto Export.
+A free, open-source iOS app that exports Apple Watch health data to your self-hosted [Apple Watch Health Dashboard](https://github.com/jinsoowhang/apple-watch). Replaces paid alternatives like Health Auto Export.
 
 Your data goes directly from your iPhone to your own server — no third parties, no analytics, no data collection.
 
@@ -20,13 +20,13 @@ Your data goes directly from your iPhone to your own server — no third parties
 - iPhone with Apple Watch (paired)
 - Mac with [Xcode](https://developer.apple.com/xcode/) 15+
 - Free Apple Developer account (for sideloading)
-- A deployed [Apple Watch Health Dashboard](https://github.com/YOUR_USERNAME/apple-watch)
+- A deployed [Apple Watch Health Dashboard](https://github.com/jinsoowhang/apple-watch)
 
 ## Setup
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/healthkit-exporter.git
+   git clone https://github.com/jinsoowhang/healthkit-exporter.git
    ```
 
 2. Open in Xcode — see [XCODE_SETUP.md](XCODE_SETUP.md) for step-by-step instructions
@@ -43,7 +43,7 @@ Your data goes directly from your iPhone to your own server — no third parties
 
 ## Dashboard Setup
 
-This app sends data to the [Apple Watch Health Dashboard](https://github.com/YOUR_USERNAME/apple-watch). Follow the setup instructions in that repo to deploy your own instance.
+This app sends data to the [Apple Watch Health Dashboard](https://github.com/jinsoowhang/apple-watch). Follow the setup instructions in that repo to deploy your own instance.
 
 ## Privacy
 
